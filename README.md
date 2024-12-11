@@ -1,9 +1,17 @@
 # 环境设置
 
-1. 用文本编辑器打开`config.json`，填入`api_key`和`url`
-2. 用文本编辑器打开`gpt.bat`，填入`cd /d "【替换为本文件夹的路径】"`的路径
-3. 将`gpt.bat`随便放到任何文件夹下，只要确保该文件夹已被添加在`PATH`系统变量中。
-4. 打开终端输入`gpt`，若出现`model: gpt-4o-mini ...`字样则设置成功
+1. 创建python虚拟环境，并用pip下载`openai`包。在文件夹内打开终端，依次输入以下命令：
+   ```powershell
+   python -m venv .venv
+   .venv\Scripts\activate
+   pip install openai
+   ```
+
+   
+2. 用文本编辑器打开`config.json`，填入`api_key`和`url`
+3. 用文本编辑器打开`gpt.bat`，填入`cd /d "【替换为本文件夹的路径】"`的路径
+4. 将`gpt.bat`随便放到任何文件夹下，只要确保该文件夹已被添加在`PATH`系统变量中。
+5. 打开终端输入`gpt`，若出现`model: gpt-4o-mini ...`字样则设置成功
 
 
 
