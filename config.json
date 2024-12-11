@@ -1,0 +1,6 @@
+{
+    "api_key": "【替换为你的API】",
+    "url": "【替换为https://api.openai.com(官方API)或中转服务器地址(第三方API)】",
+    "model": "gpt-4o-mini",
+    "context_len": 5
+}
